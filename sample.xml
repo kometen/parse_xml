@@ -1,0 +1,42 @@
+<d2LogicalModel modelBaseVersion="2" xmlns="http://datex2.eu/schema/2/2_0">
+    <payloadPublication lang="nob" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MeasuredDataPublication">
+        <publicationTime>2021-03-24T21:02:28.762+01:00</publicationTime>
+        <siteMeasurements>
+            <measurementSiteReference id="228" targetClass="MeasurementSiteRecord" version="3576"/>
+            <measurementTimeDefault>2021-03-24T20:50:00+01:00</measurementTimeDefault>
+            <measuredValue index="2501">
+                <measuredValue>
+                    <basicData xsi:type="PrecipitationInformation">
+                        <precipitationDetail>
+                            <precipitationIntensity>
+                                <millimetresPerHourIntensity>0.0</millimetresPerHourIntensity>
+                            </precipitationIntensity>
+                        </precipitationDetail>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="901">
+                <measuredValue>
+                    <basicData xsi:type="WindInformation">
+                        <wind>
+                            <windSpeed>
+                                <speed>21.24</speed>
+                            </windSpeed>
+                        </wind>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+            <measuredValue index="101">
+                <measuredValue>
+                    <basicData xsi:type="TemperatureInformation">
+                        <temperature>
+                            <airTemperature>
+                                <temperature>0.2</temperature>
+                            </airTemperature>
+                        </temperature>
+                    </basicData>
+                </measuredValue>
+            </measuredValue>
+        </siteMeasurements>
+    </payloadPublication>
+</d2LogicalModel>
